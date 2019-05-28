@@ -4,13 +4,14 @@
     <title>Karkhana</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
     <meta name="keywords" content="footer, address, phone, icons" />
 
     <link rel="stylesheet" href="css/demo.css">
-
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     
 
@@ -26,6 +27,7 @@
     <link rel="stylesheet" href="../css/flaticon.css">
     <link rel="stylesheet" href="../css/icomoon.css">
     <link rel="stylesheet" href="../css/home.css">
+    
   </head>
 <body>
 
@@ -33,22 +35,17 @@
         <nav>
           
         <div class="main" id="resnav">
-         <!-- <div class="logo">
-            <img src="/images/logo.jpg">-->
-                 <ul>
+             <ul>
             <li><a href="/"><font color = "black">Home</font></a></li>
             <li><a href="#"><font color = "black">Courses</font></a></li>
             <li><a href="#"><font color = "black">About</font></a></li>
-            <li><a href="#" class="rectangle" ><font color = "black">Register for free</font></a></li>
-                <a href="javascript:void(0);" class="icon" onclick="menubtn()">
-                            <i class="fa fa-bars"></i>
-                        </a>
-
-           </ul>
-            </div>
+            <li><a href="#" class="rectangle" ><font color = "white">Register for free</font></a></li>
+                <a href="javascript:void(0);" class="icon" onclick="menubtn()"><i class="fa fa-bars"></i></a>
+             </ul>
+          </div>
         </div>
-          </nav>
-        </header>
+      </nav>
+    </header>
 
 
     <section class="ftco-services ftco-no-pb">
@@ -66,8 +63,6 @@
               </div>
             </div>      
           </div>
-
-          
     
           <div class="col-md-3 d-flex services align-self-stretch pb-4 px-4 ftco-animate bg-fifth">
             <div class="media block-6 d-block text-center">
@@ -88,7 +83,7 @@
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Digital Citizenship</h3>
-                <p>Addressing the 21st century skills of digital citizenship is important; to help students to learn, communicate and collaborate safely online. </p>
+                <p>Digital citizenship is important; to help students to learn, communicate and collaborate safely online. </p>
               </div>
             </div>      
           </div>
@@ -96,22 +91,29 @@
       </div>
     </section>
 
- <section class="bgimg"> 
-  <div class="signin">
-
-    <p class="sign" align="center">Sign in</p>
-    <form class="form1">
-      <input class="un " type="text" align="center" placeholder="Username">
-      <input class="pass" type="password" align="center" placeholder="Password">
-      <!--<a class="submit" align="center">Sign in</a>-->
-     <button  class="button sbutton" type="button" onclick="alert('Hello world!')">Sign in</button>
-       <div>
-      <p class="forgot" align="center"><a href="#">Forgot Password?</a></p>
-      <p class="Register" align="center"><a href="#">Register Now!</a></p>              
-    </div>
-</form>
+<section>
+  <div class="login-form">    
+    <form action="/" method="post">
+    <div class="avatar"><i class="material-icons">&#xE7FF;</i></div>
+      <h4 class="modal-title">Login to Your Account</h4>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Username" required="required">
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" placeholder="Password" required="required">
+        </div>
+        <div class="form-group small clearfix">
+            <label class="checkbox-inline"><input type="checkbox"> Remember me</label>
+            <a href="#" class="forgot-link">Forgot Password?</a>
+        </div> 
+        <input type="submit" class="btn btn-primary btn-block btn-lg" value="Login">              
+    </form>     
+    <div class="text-center small">Don't have an account?<br> <a href="#">Sign up for teachers</a></div>
+    <div class="text-center small"><a href="#">Sign up for students</a></div>
+</div>
 </div>
 </section>
+
 
 
 <footer class="footer-distributed">
@@ -193,6 +195,8 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="../js/google-map.js"></script>
   <script src="../js/main.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
     
   </body>
 </html>

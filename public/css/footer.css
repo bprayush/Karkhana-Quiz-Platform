@@ -1,11 +1,12 @@
 /*for footer*/
 .footer-distributed{
-	background-color: #17a2b8;
+	background-color:#82ACFF;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.8);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px sans-serif;
+	font: bold 16px ;
+	font-family: "Work Sans", Arial, sans-serif
 
 	padding: 55px 5px;
 	margin-top: 0px;

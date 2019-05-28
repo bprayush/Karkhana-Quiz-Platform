@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Work Sans", Arial, sans-serif ;
   background-color: #f1f1f1;
 }
 
@@ -10,7 +10,7 @@ header{
   height:80vh;
   background-size: cover;
   background-position: center;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 *,
 *::before,
@@ -63,7 +63,7 @@ form.example::after {
 ul{
   float: right;
   list-style-type: none;
-  margin-top: 25px;
+  margin-top: 2px;
 }
 
 ul li{
@@ -73,21 +73,20 @@ ul li{
 ul li a{
   text-decoration: none;
   color: #fff;
-  padding: 5px 15px;
+  padding: 0px 0px;
   border: 1px solid transparent;
   margin-right: 4px
 }
-
 nav{
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
-    height: 70px;
-    padding:10px 100px;
+    height: 50px;
+    padding:10px 10px;
     box-sizing: border-box;
-    transition: .3s;
-    background-color:#fff;
+    transition: .4s;
+    background-color:#866EC7;
     overflow: hidden;
     margin: auto;
 }
@@ -97,7 +96,7 @@ nav ul{
     margin:0;
     padding: 0;
     margin-right: 0em
-    display: block;
+   
 }
 
 nav ul li{
@@ -105,10 +104,10 @@ nav ul li{
 }
 
 .rectangle{
-   height:inherit; ;
+  height:inherit; 
   width: initial;
-  background-color:#24f2f2;
-  border-radius:45px; 
+  background-color:#82ACFF;
+  border-radius:50px; 
   display:inline-block;
 }
 
@@ -121,9 +120,9 @@ nav ul li{
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 12px 13px;
+  padding: 4px 8px;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 16px;
 }
 
 
@@ -174,29 +173,33 @@ nav ul li{
       height: 120px;
       background: #fff;
       margin: 0 auto;
-      margin-top: -60px;
+      margin-top: -20px;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       border-radius: 50%; }
+
 .ftco-services .services .icon span {
         font-size: 50px;
         position: relative;
         color: #1eaaf1; }
+
 .ftco-services .services .media-body {
       color: rgba(255, 255, 255, 0.8); }
-      @media (max-width: 767.98px) {
+
+  @media (max-width: 767.98px) {
 .ftco-services .services .media-body {
           padding-bottom: 3.5em !important; } }
+
 .ftco-services .services .media-body h3 {
         font-weight: 500;
-        font-size: 22px;
+        font-size: 19px;
         color: #fff; }
         margin-left: -15px; }
 
 .media .ftco-icon {
-  width: 100px; }
-  .media .ftco-icon span {
+  width: 50px; }
+.media .ftco-icon span {
     color: #1eaaf1; }
 
 
@@ -260,14 +263,11 @@ nav ul li{
   background: #1eaaf1 !important;
   padding-left: 4em; }
 
-  .bg-tertiary {
-  background: #8cc152; }
-
 .bg-quarternary {
   background: #f1453d; }
 
 .bg-fifth {
-  background: #5d50c6; }
+  background: #8cc152; }
 
 .align-self-stretch {
   -ms-flex-item-align: stretch !important;
@@ -350,152 +350,82 @@ nav ul li{
   background: #3c312e; }
 
 
-/*-------------------------login------------------*/
-
-
-   .bgimg{
-    background: url(../images/bg_4.jpg) bottom left no-repeat;
-    height:70vh;
-    margin-top:10px;
-
-
-   }
-   .signin {
-        background-color:#fff;
-        width: 400px;
-        height: 450px;
-        margin: 0em auto;
-        padding-top: 1em;
-        border-radius: 1em;
-        box-shadow: 0px 11px 35px 2px );
-        margin-right: 50px;
-    }
-    
-    .sign {
-        padding-top: 10px;
-        color: #000;
-        font-family: 'Ubuntu', sans-serif;
-        font-weight: bold;
-        font-size: 24px;
-    }
-
-
-
-
-  .button {
-  background-color: #fda638; 
-  border: none;
-  color: white;
-  padding: 16px 28px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  margin: 4px 2px;
-  -webkit-transition-duration: 0.4s; 
-  transition-duration: 0.4s;
-  cursor: pointer;
-  border-radius: 30px;
-  margin-left: 10em;
 }
-    
- .sbutton {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #fda638;
-}
-
-.sbutton:hover {
-  background-color: #fda638;
-  color: white;
-}
-
-    .un {
-    width: 76%;
-    color: rgb(38, 50, 56);
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 1px;
-    background: rgba(136, 126, 126, 0.04);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 30px;
-    outline: none;
-    box-sizing: border-box;
-    border: 2px solid rgb(42, 8, 43);
-    margin-bottom: 50px;
-    margin-left: 46px;
+  .form-control {
+    box-shadow: none;
+    border-color: #ddd;
+  }
+  .form-control:focus {
+    border-color: #4aba70; 
+  }
+  .login-form {
+        width: 350px;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+    .login-form form {
+        color: #434343;
+    border-radius: 1px;
+      margin-bottom: 15px;
+        background: #fff;
+    border: 1px solid #f3f3f3;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+  }
+  .login-form h4 {
     text-align: center;
-    margin-bottom: 27px;
-    font-family: 'Ubuntu', sans-serif;
-    }
+    font-size: 22px;
+        margin-bottom: 20px;
+  }
+    .login-form .avatar {
+        color: #fff;
+    margin: 0 auto 30px;
+        text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: 9;
+    background: #4aba70;
+    padding: 15px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
     
-    form.form1 {
-        padding-top: 40px;
+  }
+    .login-form .avatar i {
+        font-size: 62px;
     }
-    
-    .pass {
-            width: 76%;
-    color: rgb(38, 50, 56);
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 1px;
-    background: rgba(136, 126, 126, 0.04);
-    padding: 10px 20px;
+    .login-form .form-group {
+        margin-bottom: 20px;
+    }
+  .login-form .form-control, .login-form .btn {
+    min-height: 40px;
+    border-radius: 2px; 
+        transition: all 0.5s;
+  }
+  .login-form .close {
+        position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+  .login-form .btn {
+    background: #4aba70;
     border: none;
-    border-radius: 20px;
-    outline: none;
-    box-sizing: border-box;
-    border: 2px solid rgb(42, 8, 43);
-    margin-bottom: 50px;
-    margin-left: 46px;
-    text-align: center;
-    margin-bottom: 27px;
-    font-family: 'Ubuntu', sans-serif;
+    line-height: normal;
+  }
+  .login-form .btn:hover, .login-form .btn:focus {
+    background: #42ae68;
+  }
+    .login-form .checkbox-inline {
+        float: left;
     }
-    
-   
-    .un:focus, .pass:focus {
-        border: 2px solid rgba(0, 0, 0, 0.18) !important;
-        
+    .login-form input[type="checkbox"] {
+        margin-top: 2px;
     }
-    
-    .submit {
-      cursor: pointer;
-        border-radius: 5em;
-        color: #000;
-        background: linear-gradient(to right, #9C27B0, #E040FB);
-        border: 0;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-bottom: 10px;
-        padding-top: 10px;
-        font-family: 'Ubuntu', sans-serif;
-        margin-left: 35%;
+    .login-form .forgot-link {
+        float: right;
+    }
+    .login-form .small {
         font-size: 13px;
-        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
     }
-    
-    .forgot {
-        text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
-        color: #000;
-        padding-top: 15px;
+    .login-form a {
+        color: #4aba70;
     }
-    
-    .Register {
-        text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
-        color: #000;
-        padding-top: 15px;
-    }
-    a {
-        text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
-        color: #000;
-        text-decoration: none
-    }
-    
-    @media (max-width: 600px) {
-        .signin {
-            border-radius: 0px;
-        }
-        
-   
