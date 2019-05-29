@@ -32,18 +32,17 @@
 <body>
 
     <header>
-        <nav>
+        
           
-        <div class="main" id="resnav">
+        <nav class="main" id="resnav">
              <ul>
             <li><a href="/"><font color = "black">Home</font></a></li>
-            <li><a href="#"><font color = "black">Courses</font></a></li>
+            <li><a href="#"><font color = "black">Courses</font>  
+  </a></li>
             <li><a href="#"><font color = "black">About</font></a></li>
             <li><a href="#" class="rectangle" ><font color = "white">Register for free</font></a></li>
                 <a href="javascript:void(0);" class="icon" onclick="menubtn()"><i class="fa fa-bars"></i></a>
              </ul>
-          </div>
-        </div>
       </nav>
     </header>
 
@@ -91,7 +90,7 @@
       </div>
     </section>
 
-<section>
+<section style="background-image: url(images/bg_4.jpg);" data-stellar-background-ratio="0.5">
   <div class="login-form">    
     <form action="/" method="post">
     <div class="avatar"><i class="material-icons">&#xE7FF;</i></div>
