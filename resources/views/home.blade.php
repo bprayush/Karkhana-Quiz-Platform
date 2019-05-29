@@ -36,18 +36,21 @@
           
         <nav class="main" id="resnav">
              <ul>
-            <li><a href="/"><font color = "black">Home</font></a></li>
-            <li><a href="#"><font color = "black">Courses</font>  
+            <li><a href="/"><font color = "white">Home</font></a></li>
+            <li><a href="#courses"><font color = "white">Courses</font>  
   </a></li>
-            <li><a href="#"><font color = "black">About</font></a></li>
-            <li><a href="#" class="rectangle" ><font color = "white">Register for free</font></a></li>
+            <li><a href="#about"><font color = "white">About</font></a></li>
+            <li><a href="#register" class="rectangle" ><font color = "white">Register for free</font></a></li>
                 <a href="javascript:void(0);" class="icon" onclick="menubtn()"><i class="fa fa-bars"></i></a>
              </ul>
       </nav>
     </header>
 
 
+
+               
     <section class="ftco-services ftco-no-pb">
+      <div class="Courses" id="courses">
       <div class="container-wrap">
         <div class="row no-gutters">
 
@@ -88,9 +91,11 @@
           </div>
         </div>
       </div>
+    </div>
     </section>
 
 <section style="background-image: url(images/bg_4.jpg);" data-stellar-background-ratio="0.5">
+  <div class="Register for free" id="register">
   <div class="login-form">    
     <form action="/" method="post">
     <div class="avatar"><i class="material-icons">&#xE7FF;</i></div>
@@ -115,7 +120,9 @@
 
 
 
+
 <footer class="footer-distributed">
+  <div class="About" id="about">
 
       <div class="footer-left">
 
