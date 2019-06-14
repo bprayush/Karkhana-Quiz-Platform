@@ -11,7 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+
+// Route::get('quiz', function () {
+//     return view('quiz');
+// });
+
+Route::get('/','homeController@index');
+//Route::post('quiz', [ 'as' => 'quiz', 'uses' => 'questionController@index']);
+Route::get('quiz','questionController@index');
 
