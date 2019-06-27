@@ -16,7 +16,20 @@
 //     return view('quiz');
 // });
 
-Route::get('/','homeController@index');
-//Route::post('quiz', [ 'as' => 'quiz', 'uses' => 'questionController@index']);
-Route::get('quiz','questionController@index');
 
+//Route::get('/','homeController@index');
+//Route::post('quiz', [ 'as' => 'quiz', 'uses' => 'questionController@index']);
+//Route::get('quiz','questionController@index');
+
+
+Route::get('/','homeController@index');
+
+Route::get('tform', function () {
+    return view('tform');
+});
+
+Route::post('/register','tregisterController@register');
+
+Route::get('sform', function () {
+    return view('sform');
+});

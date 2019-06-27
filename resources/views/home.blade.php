@@ -38,7 +38,7 @@
              <ul>
             <li><a href="/"><font color = "white">Home</font></a></li>
             <li><a href="#courses"><font color = "white">Courses</font>  
-  </a></li>
+            </a></li>
             <li><a href="#about"><font color = "white">About</font></a></li>
             <li><a href="#register" class="rectangle" ><font color = "white">Register for free</font></a></li>
                 <a href="javascript:void(0);" class="icon" onclick="menubtn()"><i class="fa fa-bars"></i></a>
@@ -97,7 +97,8 @@
 <section style="background-image: url(images/bg_4.jpg);" data-stellar-background-ratio="0.5">
   <div class="Register for free" id="register">
   <div class="login-form">    
-    <form action="/" method="post">
+    <form action="{{url('/welcome')}}" method="post">
+      {{csrf_field()}}
     <div class="avatar"><i class="material-icons">&#xE7FF;</i></div>
       <h4 class="modal-title">Login to Your Account</h4>
         <div class="form-group">

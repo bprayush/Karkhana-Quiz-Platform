@@ -14,6 +14,34 @@
 </style>
 </head>
 <body>
+  <header>
+        
+          
+        <nav class="main" id="resnav">
+             <ul>
+            <li><a href="/"><font color = "white">Home</font></a></li>
+            <li><a href="#courses"><font color = "white">Courses</font>  
+            </a></li>
+            <li><a href="#about"><font color = "white">About</font></a></li>
+            <li><a href="#register" class="rectangle" ><font color = "white">Register for free</font></a></li>
+              
+             </ul>
+      </nav>
+    </header>
+
+  <fieldset>
+    <div class="alertbar">
+
+         @if(session('response'))
+                       {{session('response')}}
+        @endif
+    </div>
+  </fieldset>
+    
+    <div class="signup-form"> 
+
+        <form action="{{url('/register')}}" method="POST"   enctype="multipart/form-data" autocomplete="off">
+             {{csrf_field()}}
 
 
     <div class="signup-form"> 
