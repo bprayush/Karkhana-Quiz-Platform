@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Tuser;
 
-class registerController extends Controller
+class tregisterController extends Controller
 {
     public function register(Request $request){
 
