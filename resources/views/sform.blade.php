@@ -7,41 +7,36 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 <link rel="stylesheet" type="text/css" href="../css/registration.css">
 </style>
 </head>
 <body>
-  <header>
+
+<header>
         
           
         <nav class="main" id="resnav">
-             <ul>
-            <li><a href="/"><font color = "white">Home</font></a></li>
-            <li><a href="#courses"><font color = "white">Courses</font>  
-            </a></li>
-            <li><a href="#about"><font color = "white">About</font></a></li>
-            <li><a href="#register" class="rectangle" ><font color = "white">Register for free</font></a></li>
-              
-             </ul>
+           <h1>Karkhana</h1>
       </nav>
     </header>
 
-  <fieldset>
-    <div class="alertbar">
-
-         @if(session('response'))
-                       {{session('response')}}
-        @endif
-    </div>
-  </fieldset>
-    
+ 
     <div class="signup-form"> 
 
-        <form action="{{url('/register')}}" method="POST"   enctype="multipart/form-data" autocomplete="off">
+        <form action="{{url('/sregister')}}" method="POST"   enctype="multipart/form-data" autocomplete="off">
              {{csrf_field()}}
+
+
+            <fieldset>
+              <div class="alertbar">
+                 <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                 @if(session('response'))
+                       {{session('response')}}
+                 @endif
+             </div>
+          </fieldset>
+
 
 
     <div class="signup-form"> 

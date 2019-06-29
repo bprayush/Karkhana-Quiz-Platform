@@ -26,7 +26,7 @@ class tregisterController extends Controller
 		$tusers -> password = $request ->input('password');
 		$tusers -> confirm_password = $request ->input('confirm_password');
         $tusers -> save();
-        return redirect('tform') ->with('response','Sucessfully Registered');
+        return redirect('tform')->with('response','Sucessfully Registered');
 
 
     }

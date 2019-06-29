@@ -7,7 +7,7 @@ use App\Suser;
 
 class sregisterController extends Controller
 {
-      public function register(Request $request){
+      public function sregister(Request $request){
 
   
 
